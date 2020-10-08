@@ -1,0 +1,16 @@
+import java.io.*;
+class test  
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		FileReader fr = new FileReader(C:\Users\Administrator\Desktop\新建文件夹\io\FileReader);
+		LineNumberReader lineNum = new LineNumberReader(fr);
+		
+		lineNum.setLineNumber(2);
+		
+		String line = null;
+		whlie((line = lineNum.read())!=null){
+		    System.out.println(line); 
+		}
+	}
+}
